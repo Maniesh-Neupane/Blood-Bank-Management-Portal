@@ -1,20 +1,24 @@
-===========================================================
-               BLOOD BANK MANAGEMENT PORTAL
-===========================================================
-Project: BCA 6th Semester Final Project
-Language: Core Java
-Environment: Visual Studio Code
-===========================================================
+========================================================================
+                  BLOOD BANK MANAGEMENT PORTAL
+========================================================================
+
+PROJECT OVERVIEW
+----------------
+* Course: BCA 6th Semester Final Project
+* Language: Core Java
+* Environment: Visual Studio Code
+
 
 --- ABOUT THE PROJECT ---
-The Blood Bank Management Portal is a desktop application 
-developed using Core Java. This system is designed to 
-efficiently manage the records of blood donors, recipients, 
-and the available blood stock in a digital format. 
+The Blood Bank Management Portal is a desktop application developed using 
+Core Java. This system is designed to efficiently manage the records 
+of blood donors, recipients, and the available blood stock in a digital 
+format. 
 
-It aims to streamline the process of searching for donors 
-during emergencies and maintaining an organized database 
-for blood bank administrators.
+It aims to streamline the process of searching for donors during 
+emergencies and maintaining an organized database for blood bank 
+administrators.
+
 
 --- KEY FEATURES ---
 * Donor Registration: Add and store donor details and blood types.
@@ -23,29 +27,26 @@ for blood bank administrators.
 * Admin Login: Secure access for authorized personnel only.
 * User-Friendly UI: Built using Java Swing/AWT components.
 
+
 --- FOLDER STRUCTURE ---
 The project workspace is organized as follows:
 
-- /src:   Contains the .java source code files (logic and UI).
-- /lib:   Contains external libraries and JAR files (e.g., JDBC).
-- /bin:   Contains the compiled .class files.
-- /images: Stores icons and background images used in the GUI.
-- /.vscode: Configuration settings for the VS Code IDE.
+* /src: Contains the .java source code files (logic and UI).
+* /lib: Contains external libraries and JAR files (e.g., JDBC).
+* /bin: Contains the compiled .class files.
+* /images: Stores icons and background images used in the GUI.
+* /.vscode: Configuration settings for the VS Code IDE.
+
 
 --- HOW TO RUN ---
 1. Ensure you have the Java Development Kit (JDK) installed.
 2. Open the project folder in Visual Studio Code.
-3. Install the "Extension Pack for Java" in VS Code if not already present.
-4. Navigate to the /src folder.
-5. Open the main entry file (e.g., Login.java or Main.java).
-6. Click 'Run' to start the application.
+3. Navigate to the /src folder.
+4. Run the main application file (e.g., Login.java or Main.java).
 
---- TECHNICAL SPECIFICATIONS ---
-* Language: Java (JDK 8 or higher)
-* Toolkit:  Java Swing, AWT
-* Storage:  File Handling / JDBC (MySQL)
-* IDE:      Visual Studio Code
 
------------------------------------------------------------
-Developed as part of the BCA 6th Semester Project
------------------------------------------------------------
+--- TECHNICAL STACK ---
+* Frontend: Java Swing / AWT
+* Backend: Core Java
+* Database: File Handling / JDBC (MySQL)
+========================================================================
