@@ -1,4 +1,4 @@
-🩸 Blood Bank Management Portal
+Blood Bank Management Portal
 
 BCA 6th Semester Final Project
 
@@ -41,4 +41,5 @@ The project follows a standard Java workspace layout:
 
 - Frontend: Java Swing / AWT
 - Backend: Core Java
-- Database: File handling and optional JDBC (MySQL) integration
+- Database: File handling and optional JDBC (MySQL/Mariadb) integration
+
