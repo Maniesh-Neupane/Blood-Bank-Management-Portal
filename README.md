@@ -59,5 +59,9 @@ The project follows a standard Java workspace layout:
 
 
 
+![Admin Dashboard](Admindash.png)
+<p align="center">
+  <img src="Admindash.png" alt="Admin Dashboard" width="800">
+</p>
 
 
