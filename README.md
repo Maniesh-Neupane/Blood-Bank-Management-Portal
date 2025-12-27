@@ -1,18 +1,51 @@
-## Getting Started
+===========================================================
+               BLOOD BANK MANAGEMENT PORTAL
+===========================================================
+Project: BCA 6th Semester Final Project
+Language: Core Java
+Environment: Visual Studio Code
+===========================================================
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+--- ABOUT THE PROJECT ---
+The Blood Bank Management Portal is a desktop application 
+developed using Core Java. This system is designed to 
+efficiently manage the records of blood donors, recipients, 
+and the available blood stock in a digital format. 
 
-## Folder Structure
+It aims to streamline the process of searching for donors 
+during emergencies and maintaining an organized database 
+for blood bank administrators.
 
-The workspace contains two folders by default, where:
+--- KEY FEATURES ---
+* Donor Registration: Add and store donor details and blood types.
+* Stock Management: Track available blood units (A+, B-, O+, etc.).
+* Search & Filter: Find donors based on specific blood groups.
+* Admin Login: Secure access for authorized personnel only.
+* User-Friendly UI: Built using Java Swing/AWT components.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+--- FOLDER STRUCTURE ---
+The project workspace is organized as follows:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- /src:   Contains the .java source code files (logic and UI).
+- /lib:   Contains external libraries and JAR files (e.g., JDBC).
+- /bin:   Contains the compiled .class files.
+- /images: Stores icons and background images used in the GUI.
+- /.vscode: Configuration settings for the VS Code IDE.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+--- HOW TO RUN ---
+1. Ensure you have the Java Development Kit (JDK) installed.
+2. Open the project folder in Visual Studio Code.
+3. Install the "Extension Pack for Java" in VS Code if not already present.
+4. Navigate to the /src folder.
+5. Open the main entry file (e.g., Login.java or Main.java).
+6. Click 'Run' to start the application.
 
-## Dependency Management
+--- TECHNICAL SPECIFICATIONS ---
+* Language: Java (JDK 8 or higher)
+* Toolkit:  Java Swing, AWT
+* Storage:  File Handling / JDBC (MySQL)
+* IDE:      Visual Studio Code
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+-----------------------------------------------------------
+Developed as part of the BCA 6th Semester Project
+-----------------------------------------------------------
