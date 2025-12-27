@@ -3,9 +3,11 @@ Blood Bank Management Portal
 A robust desktop application built with Core Java to streamline blood bank operations, donor tracking, and emergency blood group searching.
 
 
-📖 Project Overview
 
+📖 Project Overview
 The Blood Bank Management Portal replaces manual record-keeping with a centralized digital solution. Administrators can manage donor records, monitor real-time blood stock, and handle recipient requests more efficiently — especially during emergencies when quick access to matching donors and available units matters most.
+
+
 
 
 🌟 Key Features
@@ -15,6 +17,8 @@ The Blood Bank Management Portal replaces manual record-keeping with a centraliz
 - Quick Search: Filter donors instantly by location or blood group for emergencies.
 - Admin Security: Login system to protect sensitive medical and donor data.
 - Modern GUI: Clean, user-friendly interface built using Java Swing and AWT.
+
+
 
 
 
@@ -32,6 +36,8 @@ The project follows a standard Java workspace layout:
 
 
 
+
+
 🚀 How to Run
 
 1. Install the Java Development Kit (JDK).
@@ -43,11 +49,14 @@ The project follows a standard Java workspace layout:
 
 
 
+
+
 🧰 Technical Stack
 
 - Frontend: Java Swing / AWT
 - Backend: Core Java
 - Database: File handling and optional JDBC (MySQL/Mariadb) integration
+
 
 
 
