@@ -1,8 +1,5 @@
 Blood Bank Management Portal
-
-BCA 6th Semester Final Project
-
-A robust desktop application built with Core Java to streamline blood bank operations, donor tracking, and emergency blood group searching.
+  A robust desktop application built with Core Java to streamline blood bank operations, donor tracking, and emergency blood group searching.
 
 
 📖 Project Overview
@@ -47,5 +44,6 @@ The project follows a standard Java workspace layout:
 - Frontend: Java Swing / AWT
 - Backend: Core Java
 - Database: File handling and optional JDBC (MySQL/Mariadb) integration
+
 
 
