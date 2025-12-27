@@ -1,52 +1,44 @@
-========================================================================
-                  BLOOD BANK MANAGEMENT PORTAL
-========================================================================
+🩸 Blood Bank Management Portal
 
-PROJECT OVERVIEW
-----------------
-* Course: BCA 6th Semester Final Project
-* Language: Core Java
-* Environment: Visual Studio Code
+BCA 6th Semester Final Project
 
+A robust desktop application built with Core Java to streamline blood bank operations, donor tracking, and emergency blood group searching.
 
---- ABOUT THE PROJECT ---
-The Blood Bank Management Portal is a desktop application developed using 
-Core Java. This system is designed to efficiently manage the records 
-of blood donors, recipients, and the available blood stock in a digital 
-format. 
+📖 Project Overview
 
-It aims to streamline the process of searching for donors during 
-emergencies and maintaining an organized database for blood bank 
-administrators.
+The Blood Bank Management Portal replaces manual record-keeping with a centralized digital solution. Administrators can manage donor records, monitor real-time blood stock, and handle recipient requests more efficiently — especially during emergencies when quick access to matching donors and available units matters most.
 
+🌟 Key Features
 
---- KEY FEATURES ---
-* Donor Registration: Add and store donor details and blood types.
-* Stock Management: Track available blood units (A+, B-, O+, etc.).
-* Search & Filter: Find donors based on specific blood groups.
-* Admin Login: Secure access for authorized personnel only.
-* User-Friendly UI: Built using Java Swing/AWT components.
+- Donor Registration: Securely add and store donor profiles and blood types.
+- Live Stock Management: Monitor units for all groups (A+, B−, O+, etc.) in real time.
+- Quick Search: Filter donors instantly by location or blood group for emergencies.
+- Admin Security: Login system to protect sensitive medical and donor data.
+- Modern GUI: Clean, user-friendly interface built using Java Swing and AWT.
 
+📂 Repository Structure
 
---- FOLDER STRUCTURE ---
-The project workspace is organized as follows:
+The project follows a standard Java workspace layout:
 
-* /src: Contains the .java source code files (logic and UI).
-* /lib: Contains external libraries and JAR files (e.g., JDBC).
-* /bin: Contains the compiled .class files.
-* /images: Stores icons and background images used in the GUI.
-* /.vscode: Configuration settings for the VS Code IDE.
+| Folder    | Description                                                      |
+|-----------|------------------------------------------------------------------|
+| src       | .java source code for application logic and UI frames            |
+| lib       | External libraries / JARs (e.g., MySQL Connector / JDBC drivers) |
+| images    | UI assets, icons, and background images                          |
+| bin       | Compiled .class bytecode files                                   |
+| .vscode   | Visual Studio Code workspace settings and launch configurations  |
 
+🚀 How to Run
 
---- HOW TO RUN ---
-1. Ensure you have the Java Development Kit (JDK) installed.
-2. Open the project folder in Visual Studio Code.
+1. Install the Java Development Kit (JDK).
+2. Open the project folder in Visual Studio Code (or your preferred IDE).
 3. Navigate to the /src folder.
-4. Run the main application file (e.g., Login.java or Main.java).
+4. Run the main application file (for example, `Login.java` or `Main.java`).
+   - If using an IDE, open the corresponding class and run it.
+   - If using command line: compile with `javac` and run with `java`, or use your build/run scripts.
 
+🧰 Technical Stack
 
---- TECHNICAL STACK ---
-* Frontend: Java Swing / AWT
-* Backend: Core Java
-* Database: File Handling / JDBC (MySQL)
-========================================================================
+- Frontend: Java Swing / AWT
+- Backend: Core Java
+- Database: File handling and optional JDBC (MySQL) integration
