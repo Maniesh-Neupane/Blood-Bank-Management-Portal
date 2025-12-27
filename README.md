@@ -61,14 +61,15 @@ The project follows a standard Java workspace layout:
 
 ## Screenshots
 
-<p align="center">
-  <b>Admin Dashboard</b><br>
-  <img src="Admindash.png" alt="Admin Dashboard" width="800">
-</p>
 
 <p align="center">
   <b>Landing Page</b><br>
   <img src="landingpage.png" alt="Landing Page" width="800">
+</p>
+
+<p align="center">
+  <b>Admin Dashboard</b><br>
+  <img src="Admindash.png" alt="Admin Dashboard" width="800">
 </p>
 
 
