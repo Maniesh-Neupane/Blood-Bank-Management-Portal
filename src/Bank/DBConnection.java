@@ -8,8 +8,8 @@ public class DBConnection {
     private static final String URL =
             "jdbc:mariadb://localhost:3306/blood_bank?useSSL=false";
 
-    private static final String USER = "root";     // change if needed
-    private static final String PASS = "password";         // add password if set
+    private static final String USER = "root";     
+    private static final String PASS = "password";         
 
     public static Connection connect() {
         try {
