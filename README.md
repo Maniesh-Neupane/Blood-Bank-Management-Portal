@@ -330,16 +330,7 @@ CMD ["java", "-cp", "bin:lib/*", "Bank.UserHome"]
 
 ![Admin Dashboard](Admindash.png)
 
-## ☁️ Future Improvements
 
-- Publish container images to Amazon Elastic Container Registry (ECR).
-- Learn Amazon ECS and Fargate deployment.
-- Introduce AWS IAM and Secrets Manager.
-- Integrate CloudWatch logging and monitoring.
-- Improve Docker image security and use a non-root runtime.
-- Consider a Spring Boot REST API and web frontend for browser-based access.
-
-**Architecture note:** The current project is a Java Swing desktop application. ECS/Fargate does not automatically provide browser access to Swing windows. A web frontend and backend API would be needed for a conventional web deployment.
 
 ## 👨‍💻 Author
 
